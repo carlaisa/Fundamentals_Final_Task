@@ -185,3 +185,5 @@ d:\Documentos\Testing\EPAM\Repositories\Fundamentals_Level\Final_Task\Login\src\
 d:\Documentos\Testing\EPAM\Repositories\Fundamentals_Level\Final_Task\Login\src\obj\Debug\net8.0\Login.genruntimeconfig.cache
 d:\Documentos\Testing\EPAM\Repositories\Fundamentals_Level\Final_Task\Login\src\obj\Debug\net8.0\ref\Login.dll
 d:\Documentos\Testing\EPAM\Repositories\Fundamentals_Level\Final_Task\Login\src\obj\Debug\net8.0\Login.sourcelink.json
+D:\Documentos\Testing\EPAM\Repositories\Fundamentals_Level\Final_Task\Login\src\bin\Debug\net8.0\Serilog.dll
+D:\Documentos\Testing\EPAM\Repositories\Fundamentals_Level\Final_Task\Login\src\bin\Debug\net8.0\Serilog.Sinks.Console.dll

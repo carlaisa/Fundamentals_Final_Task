@@ -4,10 +4,13 @@ using OpenQA.Selenium.Chrome;
 using PageObject.Pages;
 using PageObject.Drivers;
 
+[assembly: LevelOfParallelism(2)]
 namespace PageObject.Tests;
 
 [TestFixture(Browser.Chrome)]
 [TestFixture(Browser.Firefox)]
+[Parallelizable(ParallelScope.Fixtures)]
+[FixtureLifeCycle(LifeCycle.InstancePerTestCase)]
 public class LoginTests
 {
     private readonly Browser _browser;

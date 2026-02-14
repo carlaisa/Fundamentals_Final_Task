@@ -35,3 +35,10 @@ UI Automation project for the **Login** flow using **Selenium WebDriver**, **NUn
     - Cached data between tests
 - Firefox
 
+
+## 🚀 Parallel Execution
+- Tests are configured to run in parallel at the fixture level
+- Each browser execution runs independently
+- Parallel execution is controlled using NUnit attributes
+
+

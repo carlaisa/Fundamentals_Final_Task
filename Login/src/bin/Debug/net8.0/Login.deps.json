@@ -11,7 +11,9 @@
           "Microsoft.NET.Test.Sdk": "18.0.1",
           "NUnit": "4.4.0",
           "NUnit3TestAdapter": "6.1.0",
-          "Selenium.WebDriver": "4.12.4"
+          "Selenium.WebDriver": "4.12.4",
+          "Serilog": "3.1.1",
+          "Serilog.Sinks.Console": "5.0.1"
         },
         "runtime": {
           "Login.dll": {}
@@ -646,6 +648,25 @@
           }
         }
       },
+      "Serilog/3.1.1": {
+        "runtime": {
+          "lib/net7.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/5.0.1": {
+        "dependencies": {
+          "Serilog": "3.1.1"
+        },
+        "runtime": {
+          "lib/net7.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "5.0.1.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
       "System.Collections.Immutable/8.0.0": {},
       "System.Diagnostics.DiagnosticSource/5.0.0": {},
       "System.Drawing.Common/7.0.0": {
@@ -820,6 +841,20 @@
       "sha512": "sha512-t0YucC2p5SKpWHBrWmR1TdJ/pXBoWyRHVRbs+iy4PPvaowl013e2fzCcdi6Kj1xeZcJ2mCh2V1jDggLHe/83+Q==",
       "path": "selenium.webdriver/4.12.4",
       "hashPath": "selenium.webdriver.4.12.4.nupkg.sha512"
+    },
+    "Serilog/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
+      "path": "serilog/3.1.1",
+      "hashPath": "serilog.3.1.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Jt8jl9y2ey8VV7nVEUAyjjyxjAQuvd5+qj4XYAT9CwcsvR70HHULGBeD+K2WCALFXf7CFsNQT4lON6qXcu2AA==",
+      "path": "serilog.sinks.console/5.0.1",
+      "hashPath": "serilog.sinks.console.5.0.1.nupkg.sha512"
     },
     "System.Collections.Immutable/8.0.0": {
       "type": "package",
