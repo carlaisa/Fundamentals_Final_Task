@@ -48,7 +48,7 @@ public class Login
 
         var error = wait.Until(d =>
         {
-            var e = d.FindElement(By.XPath("//*[@id='login_button_container']/div/form/div[3]"));
+            var e = d.FindElement(By.CssSelector(".error-message-container"));
             return e.Displayed ? e : null;
         });
 
@@ -61,7 +61,7 @@ public class Login
 
         var title = wait.Until(d =>
         {
-            var e = d.FindElement(By.XPath("//*[@id='header_container']/div[1]/div[2]/div"));
+            var e = d.FindElement(By.CssSelector(".app_logo"));
             return e.Displayed ? e : null;
         });
 

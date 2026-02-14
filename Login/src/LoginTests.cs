@@ -2,21 +2,24 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using PageObject.Pages;
+using PageObject.Drivers;
 
 namespace PageObject.Tests;
 
-[TestFixture]
+[TestFixture(Browser.Chrome)]
+[TestFixture(Browser.Firefox)]
 public class LoginTests
 {
+    private readonly Browser _browser;
     private IWebDriver driver;
+
+    public LoginTests(Browser browser) => _browser = browser;
 
     [SetUp]
     public void SetUp()
     {
-        var options = new ChromeOptions();
-        options.AddArgument("--incognito");
-
-        driver = new ChromeDriver(options);
+        driver = DriverFactory.Create(_browser);
+        driver.Manage().Window.Maximize();
     }
 
     [Test]
