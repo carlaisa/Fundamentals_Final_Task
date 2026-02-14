@@ -78,7 +78,6 @@ public class LoginTests
     public void TearDown()
     {
         driver?.Quit();
-        driver = null;
     }
 
 }
