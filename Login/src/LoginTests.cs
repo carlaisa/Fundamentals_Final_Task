@@ -13,7 +13,10 @@ public class LoginTests
     [SetUp]
     public void SetUp()
     {
-        driver = new ChromeDriver();
+        var options = new ChromeOptions();
+        options.AddArgument("--incognito");
+
+        driver = new ChromeDriver(options);
     }
 
     [Test]
@@ -45,6 +48,21 @@ public class LoginTests
         loginPage.ClickLogin();
 
         Assert.That(loginPage.GetErroMessageText(), Does.Contain("Password is required"));
+    }
+
+    [Test]
+    public void Login_Form_With_Credentials_By_Passing_Username_And_Password()
+    {
+        var loginPage = new Login(driver);
+        loginPage.Open();
+
+        loginPage.EnterUsername("standard_user");
+        loginPage.EnterPassword("secret_sauce");
+
+        loginPage.ClickLogin();
+
+        Assert.That(loginPage.GetTitleHomePage(), Is.EqualTo("Swag Labs")); 
+
     }
 
     [TearDown]

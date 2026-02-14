@@ -55,6 +55,19 @@ public class Login
         return error.Text;       
     }
 
+    public string GetTitleHomePage()
+    {
+        var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+
+        var title = wait.Until(d =>
+        {
+            var e = d.FindElement(By.XPath("//*[@id='header_container']/div[1]/div[2]/div"));
+            return e.Displayed ? e : null;
+        });
+
+        return title.Text;
+    }
+
 }
 
 
