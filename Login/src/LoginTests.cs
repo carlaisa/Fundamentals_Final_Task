@@ -11,7 +11,10 @@ namespace PageObject.Tests;
 public class LoginTests
 {
     private readonly Browser _browser;
-    private IWebDriver driver;
+    private IWebDriver? driver;
+
+    private IWebDriver Driver =>
+        driver ?? throw new InvalidOperationException("WebDriver is not initialized.");
 
     public LoginTests(Browser browser) => _browser = browser;
 
@@ -25,7 +28,7 @@ public class LoginTests
     [Test]
     public void Login_Form_With_Empty_Credentials()
     {
-        var loginPage = new Login(driver);
+        var loginPage = new Login(Driver);
         loginPage.Open();
 
         loginPage.EnterUsername("any_username");
@@ -35,13 +38,13 @@ public class LoginTests
 
         loginPage.ClickLogin();
 
-        Assert.That(loginPage.GetErroMessageText(), Does.Contain("Username is required"));
+        Assert.That(loginPage.GetErrorMessageText(), Does.Contain("Username is required"));
     }
 
     [Test]
     public void Login_Form_With_Credentials_By_Passing_Username()
     {
-        var loginPage = new Login(driver);
+        var loginPage = new Login(Driver);
         loginPage.Open();
 
         loginPage.EnterUsername("any_username");
@@ -50,13 +53,13 @@ public class LoginTests
 
         loginPage.ClickLogin();
 
-        Assert.That(loginPage.GetErroMessageText(), Does.Contain("Password is required"));
+        Assert.That(loginPage.GetErrorMessageText(), Does.Contain("Password is required"));
     }
 
     [Test]
     public void Login_Form_With_Credentials_By_Passing_Username_And_Password()
     {
-        var loginPage = new Login(driver);
+        var loginPage = new Login(Driver);
         loginPage.Open();
 
         loginPage.EnterUsername("standard_user");
@@ -71,7 +74,8 @@ public class LoginTests
     [TearDown]
     public void TearDown()
     {
-        driver.Quit();
+        driver?.Quit();
+        driver = null;
     }
 
 }

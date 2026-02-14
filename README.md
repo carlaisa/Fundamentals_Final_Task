@@ -33,3 +33,5 @@ UI Automation project for the **Login** flow using **Selenium WebDriver**, **NUn
 - Chrome running in **Incognito mode** to avoid:
     - Password Manager pop-ups
     - Cached data between tests
+- Firefox
+
