@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Testing\\EPAM\\Repositories\\Fundamentals_Level\\Final_Task\\Login\\src\\Login.csproj": {}
+    "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Testing\\EPAM\\Repositories\\Fundamentals_Level\\Final_Task\\Login\\src\\Login.csproj": {
+    "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Fundamentals_Level\\Final_Task\\Login\\src\\Login.csproj",
+        "projectUniqueName": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj",
         "projectName": "Login",
-        "projectPath": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Fundamentals_Level\\Final_Task\\Login\\src\\Login.csproj",
+        "projectPath": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Fundamentals_Level\\Final_Task\\Login\\src\\obj\\",
+        "outputPath": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
