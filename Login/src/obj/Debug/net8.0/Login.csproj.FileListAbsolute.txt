@@ -214,7 +214,6 @@ d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Fin
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\Microsoft.Testing.Extensions.VSTestBridge.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\Microsoft.Testing.Platform.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\Microsoft.Testing.Extensions.MSBuild.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\Microsoft.TestPlatform.AdapterUtilities.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -282,19 +281,6 @@ d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Fin
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\cs\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\de\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\es\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\fr\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\it\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\ja\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\ko\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\pl\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\tr\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.AdapterUtilities.resources.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 d:\Documentos\Testing\EPAM\Repositories\Automation_Fundamentals\Fundamentals_Final_Task\Login\src\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
