@@ -18,7 +18,7 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/18.3.0": {
+      "Microsoft.CodeCoverage/18.5.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
@@ -103,11 +103,11 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/18.3.0": {
+      "Microsoft.NET.Test.Sdk/18.5.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeCoverage": "18.3.0",
-          "Microsoft.TestPlatform.TestHost": "18.3.0"
+          "Microsoft.CodeCoverage": "18.5.0",
+          "Microsoft.TestPlatform.TestHost": "18.5.0"
         },
         "compile": {
           "lib/net8.0/_._": {}
@@ -387,7 +387,7 @@
           "buildMultiTargeting/Microsoft.Testing.Platform.MSBuild.targets": {}
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/18.3.0": {
+      "Microsoft.TestPlatform.ObjectModel/18.5.0": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Metadata": "8.0.0"
@@ -483,10 +483,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/18.3.0": {
+      "Microsoft.TestPlatform.TestHost/18.5.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "18.3.0",
+          "Microsoft.TestPlatform.ObjectModel": "18.5.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -866,10 +866,10 @@
         "microsoft.applicationinsights.nuspec"
       ]
     },
-    "Microsoft.CodeCoverage/18.3.0": {
-      "sha512": "23BNy/vziREC20Wwhb50K7+kZe0m07KlLWDQv4qjJ9tt3QjpDpDIqJFrhYHmMEo9xDkuSp55U/8h4bMF7MiB+g==",
+    "Microsoft.CodeCoverage/18.5.0": {
+      "sha512": "6SR2NJFwMvobXs5FhuKdpxhzotlhy/OJzSZv4fhxnN5snHIHfrCUzpZ1k0fffFx9fkLb+GB4+sRptpTfWeu2TQ==",
       "type": "package",
-      "path": "microsoft.codecoverage/18.3.0",
+      "path": "microsoft.codecoverage/18.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -944,7 +944,7 @@
         "build/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
         "lib/net462/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "microsoft.codecoverage.18.3.0.nupkg.sha512",
+        "microsoft.codecoverage.18.5.0.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
       ]
     },
@@ -1103,10 +1103,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.NET.Test.Sdk/18.3.0": {
-      "sha512": "xW3kXuWRQtgoxJp4J+gdhHSQyK+6Wb/AZDSd7lMvuMRYlZ1tnpkojyfZlWilB5G4dmZ0Y0ZxU/M23TlubndNkw==",
+    "Microsoft.NET.Test.Sdk/18.5.0": {
+      "sha512": "25WwwrAqPk8ZjUZchC0xlg0B89eHP4mGDOQwfwnM45/idYnIOQMT8NKWa8tY0HwRPTdFpdoPRBaoB7xU9lR+BA==",
       "type": "package",
-      "path": "microsoft.net.test.sdk/18.3.0",
+      "path": "microsoft.net.test.sdk/18.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1131,7 +1131,7 @@
         "lib/native/_._",
         "lib/net462/_._",
         "lib/net8.0/_._",
-        "microsoft.net.test.sdk.18.3.0.nupkg.sha512",
+        "microsoft.net.test.sdk.18.5.0.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
       ]
     },
@@ -1448,10 +1448,10 @@
         "microsoft.testing.platform.msbuild.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/18.3.0": {
-      "sha512": "AEIEX2aWdPO9XbtR96eBaJxmXRD9vaI9uQ1T/JbPEKlTAZwYx0ZrMzKyULMdh/HH9Sg03kXCoN7LszQ90o6nPQ==",
+    "Microsoft.TestPlatform.ObjectModel/18.5.0": {
+      "sha512": "8f6BFQZEk8EvQ4xTo5QpNwgOfoMs28/iZ81+2pWKtB+S/PiI49W0Cvj+apHxJH3ttnKPlGlhKSn070Ise8ETlg==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/18.3.0",
+      "path": "microsoft.testplatform.objectmodel/18.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1543,14 +1543,14 @@
         "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.18.3.0.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.18.5.0.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/18.3.0": {
-      "sha512": "twmsoelXnp1uWMU3VGip9f0Jr1mZ0PZqgJdF35CIrdYgYrkHIJMV1m8uKyhcdjLdsQDESHAgkR7KhS9i1qpJag==",
+    "Microsoft.TestPlatform.TestHost/18.5.0": {
+      "sha512": "vDo0CJKJqa1fgJkXWtwLbx7SMPSp6KkLk6jkJKe8rH1EG8SCD26vaPaEsxhd17+CazffDohWIGkO6yir85C45A==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/18.3.0",
+      "path": "microsoft.testplatform.testhost/18.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1613,7 +1613,7 @@
         "lib/net8.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll",
         "lib/net8.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll",
         "lib/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll",
-        "microsoft.testplatform.testhost.18.3.0.nupkg.sha512",
+        "microsoft.testplatform.testhost.18.5.0.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -2013,11 +2013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj",
+      "projectUniqueName": "d:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj",
       "projectName": "Login",
-      "projectPath": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj",
+      "projectPath": "d:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\Login.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\obj\\",
+      "outputPath": "d:\\Documentos\\Testing\\EPAM\\Repositories\\Automation_Fundamentals\\Fundamentals_Final_Task\\Login\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
